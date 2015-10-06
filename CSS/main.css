@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+html, body {
+  height: 100%; 
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+#clock {
+  color: #FFF;
+  font-size: 128px;
+  height: auto;
+  /*Vertical centering*/
+  position: relative;
+  top: calc(50% - 64px);
+  margin-top: -25px;
+  /*Horizontal centering*/
+  text-align: center; 
+}
