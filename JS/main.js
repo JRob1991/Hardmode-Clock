@@ -5,7 +5,7 @@ $(function(){
     return ("0" + time.toString(16)).slice(-2).toUpperCase();
   }
 
-  // Get color from date object
+  // Get color from date object.
   function getHexColor(date) {
     var hr = date.getHours();
     var min = date.getMinutes();
